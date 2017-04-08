@@ -10,5 +10,11 @@ package model;
  * @author rossi.alessandroachi
  */
 public abstract class Product {
-    
+    private String Nome;
+    private float Price;
+    private static final int MAX_PREZZO = 100;
+    public String getName(){
+        
+        return Nome;
+    }
 }
