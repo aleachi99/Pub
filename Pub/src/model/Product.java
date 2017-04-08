@@ -10,5 +10,6 @@ package model;
  * @author rossi.alessandroachi
  */
 public abstract class Product {
+     private int Price;
     
 }
